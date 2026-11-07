@@ -1,0 +1,30 @@
+{
+  "app": "header-review",
+  "mode": "headers",
+  "source": "Michaelhoang8/portfolio-lab",
+  "backend_definitions": {
+    "capabilities": [
+      "enrich",
+      "table"
+    ],
+    "security_apps": [
+      "inspect_headers",
+      "source"
+    ],
+    "validation": [
+      "ConflictError",
+      "NotFoundError",
+      "ValidationError"
+    ],
+    "json_input": [
+      "decode",
+      "read_exact"
+    ],
+    "db": [
+      "SCHEMA",
+      "connect",
+      "initialize",
+      "rows"
+    ]
+  }
+}

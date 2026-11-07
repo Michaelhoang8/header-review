@@ -1,0 +1,6 @@
+{
+  "path": "/api/security/headers",
+  "body": {
+    "text": "HTTP/1.1 200 OK\nX-Content-Type-Options: nosniff\n"
+  }
+}
