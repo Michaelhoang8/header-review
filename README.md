@@ -4,6 +4,8 @@ Review HTTP security headers and cookie policies against an optional baseline.
 
 ![Header Review preview](docs/app.png)
 
+The checklist workspace keeps response input and optional baseline settings in disclosures. Filter observed controls or controls needing review without changing the underlying report or export. Status badges stay separate from the explanation and suggested action; filter transitions respect motion preferences.
+
 ## Run
 
 Requires Python 3.11+; no third-party runtime dependencies. Clone this repository and run from its root:

@@ -81,7 +81,7 @@ window.analysisEmpty = function (mode) {
     clean: ['Build a cleaner dataset', 'Choose your cleaning steps, then compare input and output row counts.'],
     sales: ['See where revenue comes from', 'Map your date, category, and amount columns to build a revenue report.'],
     logs: ['Turn events into investigation leads', 'Load authentication events to inspect failure bursts and suspicious sequences.'],
-    headers: ['Review your response policies', 'Paste an HTTP header block to see observed controls and practical next steps.'],
+    headers: ['No header review yet', 'Paste an HTTP header block to see observed controls and practical next steps.'],
     secrets: ['Review text without exposing findings', 'Scan source text for credential patterns. Reports omit raw credential values.'],
     train: ['Train your first baseline', 'Load labeled numeric data to compare a classifier with a majority-class baseline.'],
     search: ['Find a passage worth reading', 'Add a document collection and a query to rank matching passages.'],
